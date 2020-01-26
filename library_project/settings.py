@@ -39,6 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+# MY APPS
+
+MY_APPS = [
+    'books',
+]
+
+INSTALLED_APPS = INSTALLED_APPS + MY_APPS
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
