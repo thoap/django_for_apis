@@ -39,13 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+THIRD_PARTY_APPS = [
+    'rest_framework',
+]
 # MY APPS
 
 MY_APPS = [
     'books',
 ]
 
-INSTALLED_APPS = INSTALLED_APPS + MY_APPS
+INSTALLED_APPS = INSTALLED_APPS + THIRD_PARTY_APPS + MY_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
