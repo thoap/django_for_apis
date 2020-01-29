@@ -45,7 +45,7 @@ THIRD_PARTY_APPS = [
 # MY APPS
 
 MY_APPS = [
-    'books',
+    'books.apps.BooksConfig',
 ]
 
 INSTALLED_APPS = INSTALLED_APPS + THIRD_PARTY_APPS + MY_APPS
